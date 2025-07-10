@@ -93,3 +93,43 @@ nav h1{
 .action-contain img{
     border-radius: 40px;
 }
+.users-contain{
+    background-color: #cacddcdd;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.users-contain .title h1{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: #252432;
+    text-align: center;
+    margin: 25px;
+}
+.users-contain .score{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.users-contain .score h1{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #443ef2;
+    text-align: center;
+
+}
+.users-contain .score p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    
+    margin: 10px auto;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 60%;
+    color: #252432;
+}
